@@ -32,12 +32,21 @@
         <EditText
             android:id="@+id/editPassword"
             android:layout_height="wrap_content"
-            android:hint="请输入密码" />
+            android:hint="请输入密码"
+            android:password="true" />
 
     </TableRow>
 
     <TableRow>
 
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住密码"
+            android:id="@+id/cbPass"
+            android:layout_span="2"
+            android:checked="false" />
     </TableRow>
 
     <TableRow
@@ -50,5 +59,8 @@
             android:layout_span="2"
             android:text="登陆" />
     </TableRow>
+
+
+
 
 </TableLayout>
